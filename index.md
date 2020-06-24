@@ -1,123 +1,92 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+<html lang="en">
+<head>
+<title>It's Awsome</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
 }
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+body {
+font-family:arial;
+}
+header {
+background-color:red;
+text-align:center;
+padding:30px;
+color:white;
+}
+nav {
+float:left;
+width:30%;
+height:300px;
+background-color:black;
+padding:20px;
+}
+nav ul {
+list-style-type:none;
+}
+li {
+font-size:26px;
+padding:15px;
+}
+li a {
+color:red;
+text-decoration:none;
+}
+li a:hover { 
+background-color:white;
+padding:5px;
+}
+article {
+padding:20px;
+float:right;
+width:70%;
+height:300px;
+background-color:yellow;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width:600px) {
+nav, article {
+width:100%;
+height:auto;
+}
+}
+</style>
+</head>
+<body>
+<h2>It's Awsome</h2>
+<p>this is very awsome, i will keep doing this no matter what.</p>
+<header>
+<h1>Let's Do This</h1>
+</header>
+<section>
+<nav>
+<ul>
+<li><a href="#">London</a></li>
+<li><a href="#">Paris</a></li>
+<li><a href="#">Tokyo</a></li>
+</ul>
+</nav>
+<article>
+<h2>London</h2>
+<p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</article>
+</section>
+<footer>
+<h2>Keep It Up</h2>
+</footer>
+</body>
+</html>
