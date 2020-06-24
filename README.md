@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+<html lang="en">
+<head>
+<title>It's Awsome</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-You can use the [editor on GitHub](https://github.com/NarendraHumbal/html/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NarendraHumbal/html/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+body {
+font-family:arial;
+}
+header {
+background-color:red;
+text-align:center;
+padding:30px;
+color:white;
+}
+nav {
+float:left;
+width:30%;
+height:300px;
+background-color:black;
+padding:20px;
+}
+nav ul {
+list-style-type:none;
+}
+li {
+font-size:26px;
+padding:15px;
+}
+li a {
+color:red;
+text-decoration:none;
+}
+li a:hover { 
+background-color:white;
+padding:5px;
+}
+article {
+padding:20px;
+float:right;
+width:70%;
+height:300px;
+background-color:yellow;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width:600px) {
+nav, article {
+width:100%;
+height:auto;
+}
+}
+</style>
+</head>
+<body>
+<h2>It's Awsome</h2>
+<p>this is very awsome, i will keep doing this no matter what.</p>
+<header>
+<h1>Let's Do This</h1>
+</header>
+<section>
+<nav>
+<ul>
+<li><a href="#">London</a></li>
+<li><a href="#">Paris</a></li>
+<li><a href="#">Tokyo</a></li>
+</ul>
+</nav>
+<article>
+<h2>London</h2>
+<p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</article>
+</section>
+<footer>
+<h2>Keep It Up</h2>
+</footer>
+</body>
+</html>
