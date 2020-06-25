@@ -5,9 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-family:arial;
+}
+header {
+background-color:black;
+padding:30px;
+color:white;
+}
+
+article {
+padding:20px;
+float:right;
+width:100%;
+height:auto;
+background-color:yellow;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width:600px) {
+nav, article {
+width:100%;
+height:auto;
+}
+}
 div {
 margin:0;
-background-color:black;
+background-color:skyblue;
 color:red;
 padding:26px;
 }
@@ -41,20 +78,37 @@ background-color:black;
 
   <body>
     <header>
-      <div>
         <h1>NarendraWeb</h1>
-      </div>
     </header>
 <nav>
 <ul>
-  <li><a href="http://www.narexshop.online/">Home</a></li>
+  <li><a href="https://narendraweb.com/">Home</a></li>
   <li><a href="http://www.narexshop.online/contact-us/">Contact Us</a></li>
   <li><a href="http://www.narexshop.online/about-us/">About Us</a></li>
 </ul>
 </nav>
-
-<h2>welcome to NarendraWeb</h2>
-
+<div>
+<h1>Welcome to NarendraWeb</h1>
+</div>
+<section>
+<article>
+<h3>Hello there,</h3>
+<p>i'm Narendra, i'm an professional web devloper & digital marketer working as a free lancer.<br>
+i can create resposive website which can work in any device which is in demand now days,<br>
+because you don't know from which type of device user gona access your website, so it's better <br>
+create responsive website which is unique and stand out from the other websites<br>
+in terms of design & speed.</p>
+<p>Now days it's become very important that every business must have their website, because website creates<br>
+kind of unique impression on your customer and good website also builed good trust in minds of customer.<br>
+and also you can showcase your product on your website and attract more customer to your business.<br>
+Good website can get good ranking in google search which will result into more trafic to your website and more<br>
+trafic will lead to increase in customer base. so what are you waiting for contact us for further consultation and<br>
+let us create stunning website for your business.</P>
+</article>
+</section>
+<footer>
+<h2>© NarendraWeb.All Rights Reserved.</h2>
+</footer>
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
